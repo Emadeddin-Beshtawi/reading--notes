@@ -1,18 +1,44 @@
-# Markdown
-Markdown is a way to style text on the web. You control the display of the document; formatting words as bold or italic, adding images, and creating lists are just a few of the things we can do with Markdown. Mostly, Markdown is just regular text with a few non-alphabetic characters thrown in, like # or *.  You can use Markdown most places around GitHub:
+# What is Markdown?
+Markdown is a way to style text on the web. You control the display of the document; formatting words as bold or italic, adding images, and creating lists are just a few of the things we can do with Markdown. Mostly, Markdown is just regular text with a few non-alphabetic characters thrown in, like # or *.
 
-•	Gists
+## We can format text by Markdown
+- **Creat headings by add one to six # (e.g. #,##,###,...)**
 
-•	Comments in Issues and Pull Requests
+..........
 
-•	Files with the .md or markdown extension
+- **To creat your lists:** 
+  - ##### Sometimes you want numbered lists:
+  
+1) One
 
-# Examples
+2) Two
 
-1) Texts
-It's very easy to make some words **bold** and other words *italic* with Markdown. You can even [link to FACEBOOK](https://www.facebook.com/)
+3) Three
 
-2) 
+
+   - ##### Sometimes you want bullet points:
+   
+* Start a line with a star
+
+* Profit!
+
+..........
+
+- **If you want to embed images, this is how you do it (without spaces):**
+##### ! [Alt Text] (url) 
+
+..........
+
+- **To add links, this is how you do it (without spaces):**
+##### [name] (web-url)
+
+..........
+
+- **For styling text,this is how you do it:**
+
+  * ##### For Bold Style, just write the required text inside ** **
+  
+  * ##### For Italic Style, just write the required text inside * *
 
 
 
