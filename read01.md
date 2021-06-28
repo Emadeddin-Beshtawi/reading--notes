@@ -1,0 +1,1 @@
+I think the Growth Mindset is a way to describe the underlying beliefs people have about learning and intelligence. For instance, when students believe they can get smarter, they understand that effort makes them stronger.
