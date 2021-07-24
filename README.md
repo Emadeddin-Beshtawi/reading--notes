@@ -25,7 +25,7 @@ Reading Notes 102:
 
 Read Name | Read URL
 ------------ | -------------
-**class01** | [Click Here]()
+**class01** | [Click Here](./class01.md)
 **class02** | [Click Here]()
 **class03** | [Click Here]()
 **class04** | [Click Here]()
