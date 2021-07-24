@@ -2,8 +2,13 @@
 
 Hello, my name is Emadeddin Beshtawi, I'm 25 years old, I have a bachelor degree in Mathematics. Currently, I'm in this course to boost my skills in programming.
 
+[GitHub](./github.com/Emadeddin-Beshtawi)
+
 
 # Table of content
+
+Reading Notes 102:
+
 
 |  Read Name  |   Read URL  |
 |---            |--------         |
@@ -14,7 +19,9 @@ Hello, my name is Emadeddin Beshtawi, I'm 25 years old, I have a bachelor degree
 | Read04  |  [Read04](./read04.md) |
 
 
+
 **Reading Notes 201:**
+
 
 Read Name | Read URL
 ------------ | -------------
