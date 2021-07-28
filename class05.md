@@ -82,14 +82,14 @@ Formatting elements were designed to display special types of text:
 
 ## HTML < b > and < strong > Elements
 
-1. The HTML < b> element defines bold text, without any extra importance.
+* The HTML < b> element defines bold text, without any extra importance.
 
 **Example**
 
 < b>This text is bold< /b>
 
 
-2. The HTML < strong> element defines text with strong importance. The content inside is typically displayed in bold.
+* The HTML < strong> element defines text with strong importance. The content inside is typically displayed in bold.
 
 **Example**
 
@@ -98,7 +98,7 @@ Formatting elements were designed to display special types of text:
 
 ## HTML < i> and < em> Elements
 
-1. The HTML < i> element defines a part of text in an alternate voice or mood. The content inside is typically displayed in italic.
+* The HTML < i> element defines a part of text in an alternate voice or mood. The content inside is typically displayed in italic.
 
 Tip: The < i> tag is often used to indicate a technical term, a phrase from another language, a thought, a ship name, etc.
 
@@ -106,7 +106,7 @@ Tip: The < i> tag is often used to indicate a technical term, a phrase from anot
 
 < i>This text is italic< /i>
 
-2. The HTML < em> element defines emphasized text. The content inside is typically displayed in italic.
+* The HTML < em> element defines emphasized text. The content inside is typically displayed in italic.
 
 Tip: A screen reader will pronounce the words in < em> with an emphasis, using verbal stress.
 
@@ -173,17 +173,17 @@ The HTML < sup> element defines superscript text. Superscript text appears half 
 
 # which image format to use and when?
 
-1. **TL;DR**
+**TL;DR**
 
 Use JPEG format for all images that contain a natural scene or photograph where variation in colour and intensity is smooth. Use PNG format for any image that needs transparency or for images with text & objects with sharp contrast edges like logos. Use GIF format for images that contain animations.
 
 
-2. **Compression**
+**Compression**
 
 JPEG is a lossy compression specification that takes advantage of human perception. It can achieve compression ratios of 1:10 without any perceivable difference in quality.
 
 
-3. **Transparency**
+**Transparency**
 
 In a simple form, transparency indicates something that is completely invisible. Logos and icons often need to be placed on backgrounds with variable colours. Hence it is desirable, that the background of these logos and icons is made transparent so that a single image can be used over multiple background variations.
 
@@ -196,7 +196,7 @@ In a simple form, transparency indicates something that is completely invisible.
 * **GIF** images support transparency by declaring a single colour in the colour palette as transparent (index transparency). 
 
 
-4. **Colours**
+**Colours**
 
 There is a significant difference in the number of colours that can be supported by these 3 formats.
 
@@ -210,7 +210,7 @@ There is a significant difference in the number of colours that can be supported
 * **GIF** images are limited to 256 colours. If index transparency is used, then one of these 256 colours is assigned as transparent and the remaining 255 are used for other colours.
 
 
-5. **Animation**
+**Animation**
 
 Animation, in this case, refers to any change or movement in the image. It doesn’t necessarily have to have frame rates like an animated video, but essentially a part or the entire image changes with time.
 
