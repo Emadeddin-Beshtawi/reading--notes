@@ -77,7 +77,7 @@ new Hotel( ' Park', 120, 77);
 
 * **Declaring objects:**
 
-  ** Literal Noration (Individual objects):
+**Literal Noration (Individual objects):**
 
 ```
 
@@ -88,7 +88,7 @@ rooms: 40
 
 ```
 
-  ** Constructor Function (Multiple Objects):
+**Constructor Function (Multiple Objects):**
 
 ```
 
@@ -105,8 +105,8 @@ this.rooms = rooms;
 
 **There are several built-in objects in javascript, such as the following:**
 
-  ** Browser Object Model.
+Browser Object Model.
 
-  ** Document Object Model.
+Document Object Model.
 
-  ** Global Javascript Objects.
+Global Javascript Objects.
