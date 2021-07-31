@@ -30,7 +30,7 @@ Read Name | Read URL
 **class03** | [Click Here](./class03.md)
 **class04** | [Click Here](./class04.md)
 **class05** | [Click Here](./class05.md)
-**class06** | [Click Here]()
+**class06** | [Click Here](./class06.md)
 **class07** | [Click Here]()
 **class08** | [Click Here]()
 **class09** | [Click Here]()
