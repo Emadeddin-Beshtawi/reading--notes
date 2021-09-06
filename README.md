@@ -47,8 +47,8 @@ Read Name | Read URL
 
 Read Name | Read URL
 ------------ | -------------
-**class01** | [Click Here](301/class01.md)
-**class02** | [Click Here](301/class02.md)
+**class01** | [Click Here](./301/class01.md)
+**class02** | [Click Here](./301/class02.md)
 **class03** | [Click Here](301/class03.md)
 **class04** | [Click Here](301/class04.md)
 **class05** | [Click Here](301/class05.md)
