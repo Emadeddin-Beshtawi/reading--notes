@@ -1,57 +1,35 @@
-# SQL vs NoSQL
+# CRUD
 
-- SQL are primarily referred to as RDBMS - Relational Databases. SQL are table based. Scaled by increasing the power of hardware.
+#### CRUD - Create Read Update Delete
 
-- NoSQL are non-relational. These are document based, key, value pairs, graph DBs, or wide column stores. Scaled my amount of DBs. Good fit for complex queries and hierarchical data storage.
+##### Methods for CRUD
 
-- Mongo is a NoSQL DB. Stores data in documents similar to JSON. Non-relational and has dynamic schema. Written in C++.
+- Create - use POST
 
-- Mongo is good for Speed - handles simple queries well, gives data in a single doc. A document DB
+- Read - use GET
 
-- Scalability - Horizontally scalable.
+- Update - use PUT or PATCH
 
-- Manageable - Easy to use.
+- Delete - use DELETE
 
-- Dynamic schema - Flexibility to change your data schema without impacting your previously existing data in storage.
+- Status code - first number is the status class, then a code afterward. A reason for the error might be shown as well.
 
-# NoSQL modeling
+- 100-199 - This refers to the header being received from the client by the server and the server will begin to work through the request. The server will tell the client whether it passed or failed.
 
-- Key-Value storage - simple yet powerful. Poor applicabilty in cases of key ranges. Ordered kay value pair takes care of this.
+- 200-299 - Success, request received.
 
-- Ordered Key Value - powerful -
+- 300-399 - Redirection. Resource unavailable or not at expected location.
 
-- Big-Table - maps out your data. Columns, column families, timestamps, etc.
+- 400-499 - Error. Invalid request from client to server. (timeouts, missing information, etc)
 
-- Graph DBs - originated from the Ordered K/V pairs -
+- 500-599 - Server Error - Commonly referring to overloaded and/or servers not reachable. Sometimes from a client request.
 
-- NoSQL requires a good understanding of data structures and algorithms.
+- The 202 code specifically does not necessarily mean success, just that the requirements have been met from an asynchronous request.
 
-- MongoDB - document based.
+- 308 - Permanent Redirect - States that there has been a permanent redirect, change to the location. Resource has been moved to the url stated in location header.
 
-- Denormalization - copying the same data in multiple docs. (MongoDB)
+- 204 - No Content - Updates returning no content beck to the client that requested the data.
 
-- Schema-less in doc-based DBs. Aggregation is more flexible and better performance.
+- 410 - Gone - This resource used to exist but is now gone. The implication is that the server knows that it used to exist.
 
-- Joins - usually hinders query times by aggegation, embedding nested entries.
-
-- Geohash is reducing a size of a large file by flattening it into a list of entries.
-
-- Index table - big table - very simple index table containing the information. Can retireve information with a single specified query.
-
-- Composite key index - beneficial when used with ordered keys. Multidimensional index. Allows us to iterate through the data by a search.
-
-- Aggregation with composite keys - also by used for grouping as well as indexes. The information will return collocated, that is the idea behind this.
-
-- Inverted search - Direct aggregation - data processing pattern, less of data modeling. Use of a index to find data that meets a certain criteria.
-
-- Hierarchical Techniques - Tree Aggregation - Your typical tree structure. Searching maybe a little more difficult.
-
-- Adjacency lists - each node is an independent record and contains arrays of parents and children.
-
-- Materialized Paths - A parent/child structure. Able to list all parents and children.
-
-- Nested Sets - used in modeling a tree-like structures. Store leafes of the tree into an array an map the non-leaf nodes and putting them in an index showing start and end.
-
-- Nested Documents Flattening - Basically indexing everything to avoid errors in search queries. Be more specific with naming. Good for search engines.
-
-- Batch graph processing - Storing large maops is inefficent since large maps do not scale well. Reducing them allows for more efficiency.
+- 403 - Forbidden - Server understood but denied (did not authorize) the request.
